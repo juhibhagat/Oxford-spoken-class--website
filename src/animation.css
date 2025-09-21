@@ -1,0 +1,23 @@
+@keyframes spin{
+    from{
+        transform: translatex(-150px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+.image-bio{
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+.test-card-image:hover{
+    transform: scale(1,1.1);
+    transition: 1s;
+}
+.text-change:hover{
+    transform: translate(10px)
+}
+.text-content:hover{
+    color: #F7542B;
+}

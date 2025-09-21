@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photos</title>
+  <meta name="description"
+    content="Join the best Spoken English classes in Ameerpet, Hyderabad. Improve your fluency, grammar, and communication skills with expert trainers.">
+  <meta name="keywords"
+    content="Spoken English classes Ameerpet, English speaking course Hyderabad, Ameerpet English coaching near me, Best English institute Hyderabad, Basic to Advanced, Master Spoken English, A S Reddy Spoken English, Naresh It, A S Reddy, Dream Technology, Training, Teaching Fish, Speak Well, Pragna, Formula, Cambridge international, Aditiya, Medha Language theatre, english planet, Sr, Ctpa, IELTS, Russels, Hims, shraddha, Course, English Tree, Soft Skill">
+  <link rel="stylesheet" href="../src/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="../src/animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  <style>
+    .image-container {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.5s ease;
+    }
+
+    .image-container:hover img {
+      transform: scale(1.1);
+    }
+
+    .eye-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 2rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .image-container:hover .eye-icon {
+      opacity: 1;
+    }
+
+    .modal-img {
+      max-width: 100%;
+      max-height: 90vh;
+      object-fit: contain;
+    }
+
+    .modal-body {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="animate__animated animate__bounceInLeft">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <!-- <div id="google_translate_element"></div> -->
+        <div class="navbar-brand d-flex justify-content-center align-items-center gap-1">
+          <div>
+            <img src="../public/images/Logo-2.jpg" alt="Logo" width="55" height="55">
+          </div>
+          <div class="text-white">
+            <h3 class="m-0 p-0" style="font-size: 14px; font-weight: bold; color: #F7F501;">OXFORD SPOKEN ENGLISH</h3>
+            <h6 class="m-0 p-0 fw-bold"
+              style="font-size: 11px; font-family: Monotype Corsiva; color: #F7F501; letter-spacing: 2px;">India's Most
+              Trusted Institute</h6>
+            <P class="m-0 p-0" style="font-size: 9px;">Your Search For The Best Institute Ends Here</P>
+            <p class="m-0 p-0 text-center" style="font-size: 12px; font-weight: bold; color: #F7F501;">(ESTD:2012)</p>
+          </div>
+        </div>
+
+        <!-- Toggler Button for Mobile -->
+        <button class="navbar-toggler bg-warning fs-6 p-1" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white fw-bold mx-2 my-1 px-3 py-1" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold mx-2 my-1 px-3 py-1" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold mx-2 my-1 px-3 py-1" href="./corporate.html">Corporate Training</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold mx-2 my-1 px-3 py-1" href="./course.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold mx-2 my-1 px-3 py-1" href="./photo.html">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold mx-2 my-1 px-3 py-1" href="./booking.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold mx-2 my-1 px-3 py-1" href="./contact.html">Contact-Us</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link text-white fw-bold mx-2 my-1 px-3 py-1" href="./self-practice.html">Self Practice</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+
+
+
+  <section class="container-fluid">
+    <h2 class="text-center fs-2 pt-4 fw-bold">Photos</h2>
+    <hr>
+    <div class="row">
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c1.JPG" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c2.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c3.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c4.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c5.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c6.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c7.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c8.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c9.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c10.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+           <img src="../public/images/c11.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c12.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c13.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c14.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c15.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c16.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c17.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c18.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c19.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+      <div class="container py-lg-5 py-2 col-12 col-lg-3 col-md-4">
+        <div class="card">
+          <!-- <h3 class="card-header text-center">Image Title</h3> -->
+          <div class="image-container shadow card-body">
+            <img src="../public/images/c20.jpg" alt="Sample" class="img-fluid">
+            <i class="bi bi-eye eye-icon" onclick="openModal(this)"></i>
+          </div>
+          <!-- <div class="card-footer">Image Description</div> -->
+        </div>
+      </div>
+
+      <!-- Image Modal -->
+      <div class="modal fade" id="imageModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content bg-dark">
+            <div class="modal-header border-0">
+              <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <img src="" id="modalImage" class="modal-img rounded">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+
+  <div class="whatsapp-toggle">
+    <a href="https://wa.me/919908080916" target="_blank" title="Chat on WhatsApp">
+      <span class="bi bi-whatsapp"></span>
+    </a>
+  </div>
+
+
+
+
+  <footer>
+    <div class="row container-fluid text-white p-0 m-0">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <h2 class="pt-4 fw-bold text-warning">Our Courses</h2>
+        <hr>
+        <p style="text-align: justify;"><span class="text-warning">30 Days Intensive Spoken English Course:
+          </span>
+          Quick, powerful, and immersive – perfect for rapid skill-building.
+          Interview Preparation & Personality Development
+          Crack your interviews and build a confident personality.<br>
+          <span class="text-warning">3–6 Months Comprehensive Course:</span> For Beginners with Zero English knowledge,
+          Program
+          Designed for deep transformation in spoken and written English communication.
+        </p>
+      </div>
+      <aside class="col-12 col-sm-6 col-md-4 col-lg-3 ps-lg-5">
+        <h2 class="pt-4 fw-bold text-warning ps-lg-5">Social Link</h2>
+        <ul class="list-group ps-lg-5" style="list-style: none;">
+          <li class="pt-4 text-change"><span class="bi bi-chevron-double-right pe-2"></span><span
+              class="bi bi-facebook text-primary"><span class="ps-2"><a
+                  href="https://www.facebook.com/share/15GVfi1qqM/">Facebook</a></span></span></li>
+          <li class="pt-4 text-change"><span class="bi bi-chevron-double-right pe-2"></span><span
+              class="bi bi-twitter-x "><span class="ps-2"><a
+                  href="https://x.com/kvratnam18?t=MMawKejz0XedgeLHeN1NaQ&s=09">Twitter</a></span></span>
+          </li>
+          <li class="pt-4 text-change"><span class="bi bi-chevron-double-right pe-2"></span><span
+              class="bi bi-instagram  text-danger"><span class="ps-2"><a
+                  href="https://www.instagram.com/oxford.spokenenglish?igsh=aWdpNG1hd2E3MGEz">Instagram</a></span></span>
+          </li>
+          <li class="pt-4 text-change"><span class="bi bi-chevron-double-right pe-2"></span><span
+              class="bi bi-youtube text-danger"><span class="ps-2"><a
+                  href="https://www.youtube.com/@oxfordhyderabad">Youtube</a></span></span></li>
+          <li class="pt-4 text-change"><span class="bi bi-chevron-double-right pe-2"></span><span
+              class="bi bi-globe-americas"><span class="ps-2"><a
+                  href="https://oseap.blogspot.com">Blog</a></span></span></li>
+        </ul>
+      </aside>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 ps-lg-5">
+        <h2 class="pt-4 fw-bold text-warning">Pages Link</h2>
+        <ul class="list-group" style="list-style: none;">
+          <li class="pt-4 text-change"><a href="index.html"><span class="bi bi-chevron-double-right text-content"><span
+                  class="ps-2">Home</span></span></a></li>
+          <li class="pt-4 text-change"><a href="course.html"><span class="bi bi-chevron-double-right text-content"><span
+                  class="ps-2">Course</span></span></a></li>
+          <li class="pt-4 text-change"><a href="contact-us.html"><span
+                class="bi bi-chevron-double-right text-content"><span
+                  class="ps-2 text-content">Contact</span></span></a></li>
+          <li class="pt-4 text-change"><a href="about.html"><span class="bi bi-chevron-double-right text-content"><span
+                  class="ps-2">About</span></span></a></li>
+          <li class="pt-4 text-change"><a href="booking.html"><span
+                class="bi bi-chevron-double-right text-content"><span class="ps-2">Register</span></span></a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <address>
+          <h2 class="pt-4 fw-bold text-warning">Contact-Us</h2>
+          <div class="pt-4">
+            <span class="pt-4 bi bi-phone text-change" style="color: #F7542B;"><span class="ps-2 text-white">Mob: <a
+                  href="tel:+919908080916">9908080916</a></span></span>
+          </div>
+          <div class="pt-4">
+            <span class="pt-4 bi bi-whatsapp text-change text-success" style="color: #F7542B;"><span class="ps-2 text-white">Whatsapp: <a
+                  href="https://wa.me/919908080916">9908080916</a></span></span>
+          </div>
+          <div class="pt-4">
+            <span class="pt-4 bi bi-envelope text-change text-warning"><span class="ps-2 text-white">Email: <a
+                  href="mailto:oxfordspokenenglishhyd@gmail.com">oxfordspokenenglishhyd@gmail.com</a></span></span>
+          </div>
+          <div class="pt-4">
+            <span class="pt-4 bi bi-geo-alt-fill text-change text-success"><span class="ps-2"><a
+                  href="https://maps.app.goo.gl/FNW5pBNvJJf7j1b16">Hyderbad
+                  Ameerpet, Pin: 500016</a></span></span>
+          </div>
+          <div class="pt-4">
+            <span class="pt-4 bi bi-geo-alt-fill text-change text-success"><span class="ps-2"><a
+                  href="https://maps.app.goo.gl/H4KqbE3EDbnmtBpQ8">Hyderbad Mehdipatnam, Pin: 500028</a></span></span>
+          </div>
+
+        </address>
+      </div>
+    </div>
+    <div style="background-color: #1F2132; height: 40px; display: flex; align-items: center; justify-content: center;">
+      <p class="m-0 text-white">&copy; <span style="font-size: 13px;">All Rights Reserved. | <span
+            style="color: #F7F501; font-weight: bold;">Oxford Spoken English</span></span></p>
+    </div>
+  </footer>
+  <script>
+    function openModal(icon) {
+      const imgSrc = icon.previousElementSibling.src;
+      document.getElementById('modalImage').src = imgSrc;
+      const modal = new bootstrap.Modal(document.getElementById('imageModal'));
+      modal.show();
+    }
+  </script>
+</body>
+
+</html>
